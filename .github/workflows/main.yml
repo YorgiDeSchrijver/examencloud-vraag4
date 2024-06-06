@@ -19,7 +19,7 @@ jobs:
               # A path (relative to the root of your repo) to where you would like the diagram to live. For example: images/diagram.svg. Default: diagram.svg
               output_file: diagram.svg
               # Whether to push the new commit back to the repository. Must be true or false. Default: true
-              should_push: false
+              should_push: true
               # If given, the name of an artifact to be created containing the diagram. Default: don't create an artifact.
               artifact_name: image
           
